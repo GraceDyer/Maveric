@@ -1,0 +1,16 @@
+Programming Requirement
+A rod is continuously heating up, and there are several ants on it. The ants must leave the rod as soon as possible, or they will be burned to death. Each ant moves at a maximum speed of 1 cm/s. When an ant reaches the end of the rod, it immediately falls off and escapes. We know the initial positions of the ants on the rod but not their walking directions.
+
+You are given the rod’s length and the positions of the ants. Write a function:
+int solve(int pos[], int n,int len)
+to compute the minimum possible time for all ants to fall off the rod.
+
+Also write the main function to read input and test the function.
+
+ Input Description
+Two lines:
+The first line contains two integers: the rod's length (in cm) and the number of ants n.
+The second line contains n integers, representing the ants' positions (measured from the left end). The values are unsorted and ≤ 10000.
+
+Output Description
+A single integer: the shortest possible time (in seconds) it takes for all ants to fall off the rod.

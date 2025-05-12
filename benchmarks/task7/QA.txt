@@ -1,0 +1,12 @@
+Programming Requirement
+
+Find all the intimate logarithms within 1-n and output them.
+
+A and B are intimate logarithms: the sum of all factors of A except itself is equal to B, and the sum of all factors of B except itself is equal to A, and A! =B
+
+Input description:
+A positive integer n
+n <= 1000
+
+
+

@@ -1,0 +1,8 @@
+Programming Requirement
+
+The standard fee for postal remittances is 1% of the remittance amount, with a maximum fee of 50 yuan per transaction. VIP users receive a 15% discount on the standard fee, making the maximum fee 50 × 0.85 = 42.5 yuan.
+Write a function double vipShouFei(double money) that takes the remittance amount money as input and returns the fee charged to a VIP user.
+
+Example Test
+Sample Input: 937 
+Sample Output:  7.9645

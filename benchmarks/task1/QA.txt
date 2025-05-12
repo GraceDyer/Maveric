@@ -1,0 +1,20 @@
+Problem Description
+Jinjin has always managed her own pocket money. At the beginning of each month, her mother gives her 300 yuan. Jinjin plans her monthly expenses in advance and always manages to spend exactly as planned.
+
+To encourage Jinjin to save money, her mother offers a savings plan: at any time, Jinjin can deposit money in multiples of 100 yuan with her mother, and at the end of the year, her mother will return the money with a 20% interest. Based on this, Jinjin makes a savings plan: at the beginning of each month, after receiving her 300 yuan allowance, if she expects to have at least 100 yuan remaining at the end of the month, she will deposit as much as possible in hundreds with her mother and keep the rest in hand.
+
+For example, at the beginning of November, Jinjin has 83 yuan. After receiving 300 yuan, she plans to spend 180 yuan that month. She can deposit 200 yuan to her mother and keep 183 yuan for herself. By the end of November, she will have 3 yuan left.
+
+Jinjin realizes that the main risk of this plan is that the money deposited with her mother cannot be withdrawn before the end of the year. It's possible that in a given month, her cash on hand plus the new allowance is not enough to meet that month's budget. If this happens, Jinjin will have to reduce her spending for that month.
+
+Given Jinjin's monthly budgets from January to December of 2004, please determine whether she will encounter a shortage in any month. If not, compute how much money Jinjin will have at the end of the year, after receiving back the savings with 20% interest from her mother.
+
+ Input
+The input consists of 12 lines, each containing a non-negative integer less than 350. These integers represent Jinjin’s budget for January through December.
+
+Output
+The output is a single line:
+
+If there is a month where Jinjin's available money (cash in hand + new allowance) is not enough to cover the planned budget, output -X, where X is the index (1-based) of the first such month.
+
+Otherwise, output the total amount of money Jinjin will have at the end of 2004, including the 20% interest on the money saved with her mother.

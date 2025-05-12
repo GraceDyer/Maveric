@@ -1,0 +1,1 @@
+externed double vipShouFei(double);

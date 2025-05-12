@@ -1,0 +1,1 @@
+externed int f(int x);

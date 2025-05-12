@@ -1,0 +1,14 @@
+Programming Requirement
+Write a program to determine whether the digits of an integer n contain the digit 3 or 4.
+If yes, output 1; otherwise, output 0.
+Hint: If n is negative, convert it to its positive equivalent first.
+
+Input Format
+The first line contains an integer x, representing the number to be checked.
+
+Output Format
+Output a single integer: 1 if x contains the digit 3 or 4, otherwise 0.
+
+Example
+Sample Input: 123
+Sample Output: 1

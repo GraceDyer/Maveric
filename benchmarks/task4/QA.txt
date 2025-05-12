@@ -1,0 +1,7 @@
+Programming Requirement
+
+Write a function int sum_fac(int n) to compute the sum of factorials from 1 to n, that is: 1!+2!+3!+⋯+n!
+
+Example Test
+Sample Input: 2
+Sample Output: 3

@@ -1,0 +1,1 @@
+externed int sum_fac(int n);

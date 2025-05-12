@@ -1,0 +1,6 @@
+Problem description: Calculate the alpha product of an unsigned integer. For an unsigned integer x, its alpha product is calculated as follows: If x is a single digit, then its alpha product is itself. Otherwise, the alpha product of x is equal to the alpha product of the integer obtained by multiplying its non-zero digits.
+
+For example: The alpha product of 4018224312 is equal to 8, and it is calculated through the following several steps:
+4018224312 → 418224312 → 3072
+3072 → 372 → 42
+42 → 4*2 → 8

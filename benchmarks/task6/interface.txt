@@ -1,0 +1,1 @@
+externed int solve(int x);

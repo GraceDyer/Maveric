@@ -1,0 +1,13 @@
+Programming Requirement
+Implement the function double getSalary(double hours), where the parameter hours represents the total number of hours worked. The function returns the wage amount (in yuan).
+The wage is calculated according to the following rules:
+
+If the working time is less than or equal to 8 hours, the rate is 25 yuan/hour;
+
+If the working time exceeds 8 hours, the first 8 hours are paid at 25 yuan/hour, and the excess is paid at 35 yuan/hour;
+
+If the working time exceeds 16 hours, the first 8 hours are paid at 25 yuan/hour, the hours from 8 to 16 (inclusive) are paid at 35 yuan/hour, and the hours beyond 16 are paid at 55 yuan/hour.
+
+Test Example
+Sample Input: 2
+Sample Output: 50

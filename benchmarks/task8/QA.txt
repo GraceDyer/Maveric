@@ -1,0 +1,28 @@
+Bai Xiaoshui is a lovely white cat. Its owner, Hei Dahuo, is a considerate man who strives hard for his little princess.
+
+Before meeting Bai Xiaoshui, Hei Dahuo was just a naive teenager. It was only later that we happened to glance at each other by the roadside, but since then it has become an obsession in my heart.
+
+He felt that perhaps he would be defeated by it for the rest of his life. Every move it made always tugged at his heartstrings.
+
+So, today Black Big Fire is going to prepare delicious cat food for White Little Water again. Would you like to help them?
+
+Black Big Fire now has N amounts of money. There are M kinds of cat food that White Little Water likes, arranged from left to right. Given the price ai of each cat food, his purchasing rules are as follows:
+
+You must purchase in the order from left to right. If you can buy this type of cat food, you must purchase it. You can only buy one of each type of cat food. After purchasing the first type of cat food, buy the second type, and so on.
+If the amount is insufficient, the cat food will be skipped and the next type of cat food will be purchased until the end.
+Output how many kinds of cat food he can buy at most.
+
+Input description:
+The first line inputs two integers, representing N and M respectively (1<= N <=100, 1<= M <=100).
+
+The second line includes M numbers a1,a2,a3... separated by Spaces. ,aM(1<= ai<= 100)
+
+Output description:
+Each group of data corresponds to only one line of output, which outputs the maximum number of purchases.
+
+Input sample
+10 4
+1 1 10 1
+
+Output sample
+3

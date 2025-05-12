@@ -37,7 +37,6 @@
 
 2. **Run Maveric**
    ```bash
-   python src/gen_template.py 
    python src/Maveric.py ../benchmarks
    ```
 
